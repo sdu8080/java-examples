@@ -1,4 +1,4 @@
-package io.polarisdev.redis.redis;
+package io.sdu.redis.redis;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

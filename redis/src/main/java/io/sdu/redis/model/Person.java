@@ -1,4 +1,4 @@
-package io.polarisdev.redis.model;
+package io.sdu.redis.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;

@@ -1,4 +1,4 @@
-package io.polarisdev.redis;
+package io.sdu.redis;
 
 import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +14,8 @@ import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.repository.configuration.EnableRedisRepositories;
-import io.polarisdev.redis.model.Person;
-import io.polarisdev.redis.repository.PersonRepository;
+import io.sdu.redis.model.Person;
+import io.sdu.redis.repository.PersonRepository;
 import lombok.extern.slf4j.Slf4j;
 
 /**
