@@ -8,9 +8,9 @@ import java.util.function.Supplier;
 public class ObjectValueResolver {
   public static <T> Optional<T> resolve(Supplier<T> resolver) {
     try {
-      final T result = resolver.get();
+      T result = resolver.get();
       return ofNullable(result);
-    } catch (final NullPointerException e) {
+    } catch (NullPointerException e) {
       return empty();
     }
   }
