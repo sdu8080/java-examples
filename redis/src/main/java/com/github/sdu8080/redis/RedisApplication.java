@@ -1,6 +1,9 @@
-package io.sdu.redis;
+package com.github.sdu8080.redis;
 
 import java.util.Arrays;
+
+import com.github.sdu8080.redis.model.Person;
+import com.github.sdu8080.redis.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
@@ -14,8 +17,6 @@ import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.repository.configuration.EnableRedisRepositories;
-import io.sdu.redis.model.Person;
-import io.sdu.redis.repository.PersonRepository;
 import lombok.extern.slf4j.Slf4j;
 
 /**

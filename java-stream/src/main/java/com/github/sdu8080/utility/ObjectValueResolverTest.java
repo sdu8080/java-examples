@@ -1,4 +1,4 @@
-package io.sdu.utility;
+package com.github.sdu8080.utility;
 
 import java.util.Optional;
 import lombok.Data;

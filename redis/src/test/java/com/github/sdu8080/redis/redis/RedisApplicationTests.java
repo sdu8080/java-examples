@@ -1,4 +1,4 @@
-package io.sdu.redis.redis;
+package com.github.sdu8080.redis.redis;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

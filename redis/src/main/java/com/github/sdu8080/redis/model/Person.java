@@ -1,4 +1,4 @@
-package io.sdu.redis.model;
+package com.github.sdu8080.redis.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
