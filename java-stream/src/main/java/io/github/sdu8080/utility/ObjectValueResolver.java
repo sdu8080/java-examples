@@ -1,4 +1,4 @@
-package com.github.sdu8080.utility;
+package io.github.sdu8080.utility;
 
 import static java.util.Optional.empty;
 import static java.util.Optional.ofNullable;

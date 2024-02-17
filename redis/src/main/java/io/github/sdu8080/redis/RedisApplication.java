@@ -1,9 +1,9 @@
-package com.github.sdu8080.redis;
+package io.github.sdu8080.redis;
 
 import java.util.Arrays;
 
-import com.github.sdu8080.redis.model.Person;
-import com.github.sdu8080.redis.repository.PersonRepository;
+import io.github.sdu8080.redis.model.Person;
+import io.github.sdu8080.redis.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;

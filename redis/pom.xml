@@ -10,7 +10,7 @@
 	<description>Demo project for Redis</description>
 
 	<parent>
-		<groupId>com.github.sdu8080</groupId>
+		<groupId>io.github.sdu8080</groupId>
 		<artifactId>java-examples</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<!-- <relativePath />  lookup parent from repository -->

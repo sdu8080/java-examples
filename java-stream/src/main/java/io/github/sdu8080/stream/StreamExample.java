@@ -1,4 +1,4 @@
-package com.github.sdu8080.stream;
+package io.github.sdu8080.stream;
 
 import java.util.Arrays;
 import java.util.List;
