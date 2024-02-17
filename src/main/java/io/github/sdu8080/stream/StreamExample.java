@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 
 public class StreamExample {
 
+  /** Test Stream function.
+   */
   public static void main(String[] args) {
     String[] strArray = {"foo", "bar", "blah"};
 
@@ -36,10 +38,10 @@ public class StreamExample {
     }
   }
   
-  static class MyFunction implements Function<String, String>{
+  static class MyFunction implements Function< String, String >{
     @Override
     public String apply(String t) {
-      System.out.println("inside function: " +t);
+      System.out.println("inside function: " + t);
       return t.toUpperCase().replace('O', '$');
     }
   }
